@@ -40,7 +40,7 @@ function Hero() {
 
   const rollDice = async () => {
     try {
-      const response = await axios.post("http://localhost:5000/roll-dice", {
+      const response = await axios.post("/api/roll-dice", {
         bet,
       });
 
