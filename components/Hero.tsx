@@ -141,7 +141,7 @@ function Hero() {
 
           <div className="text flex flex-col items-center justify-center">
             <div className="flex justify-between w-[80%] px-4">
-              {Array(0, 25, 50, 75, 100).map((item, i) => (
+              {[0, 25, 50, 75, 100].map((item, i) => (
                 <div key={i} className="font-bold text-xl">
                   {item}
                 </div>
